@@ -1,0 +1,27 @@
+{
+  "name": "svg-anchor-export",
+  "version": "0.1.0",
+  "description": "Converts an SVG file that contains anchors into an FBX file",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfaraj/svg-anchor-export.git"
+  },
+  "author": "George Faraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfaraj/svg-anchor-export/issues"
+  },
+  "homepage": "https://github.com/gfaraj/svg-anchor-export#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "esm": "^3.2.25",
+    "js-svg-path": "^1.1.0",
+    "svg-parser": "^2.0.2",
+    "svg.js": "^2.7.1",
+    "svgdom": "0.0.20"
+  }
+}
